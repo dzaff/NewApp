@@ -39,35 +39,32 @@
 <div data-role="page" id="page1" >
 
     <div id="head" data-theme="a" data-role="header" data-position="fixed">
-        <h3 id="head" Karen Zaffarano <br>
-		   Makeup Artist/Hair Stylist
-        </h3>
-    </div>
+        <h3 id="head"><font face='trebuchet ms'> Karen Zaffarano <br>
+		   Makeup Artist
+        </h3></font>
+	</div>
+
 	<center>
+
     <div data-role="content" data-heme="a" data-content-theme="c">
         <div data-role="fieldcontain">
             <fieldset data-role="controlgroup" data-heme="a" data-content-theme="c">
                 <label for="sbar">
                 </label>
-                <input a title='Search Site'name="sbar" id="sbar" placeholder="Search Site" value="" type="search"/>
+                
           
-			</div></center>
-			<div>
-		<span class="pics">  
-		<ul data-filter="true">
-		<li><a href="https://dl.dropbox.com/u/46305297/MyApp/images/artistAtWork.jpg" title="Shoot Prep" target=""><img src="images/artistAtWork.jpg"></a> </li>
-		<li><a href="https://dl.dropbox.com/u/46305297/MyApp/images/rachel.zoe.1.jpg" title="Fasion Week" target=""><img src="css/images/rachel.zoe.1.jpg"></a> </li>
-		<li><a href="https://dl.dropbox.com/u/46305297/MyApp/images/bridePrep.jpg" title="Bride Prep" target=""><img src="images/bridePrep.jpg"></a> </li>
-		<li><a href="https://dl.dropbox.com/u/46305297/MyApp/images/kard.jpg" title="Fasion Week" target=""><img src="css/images/kard.jpg" alt="Fahion Week"/> </a> </li>
-		<li><a href="https://dl.dropbox.com/u/46305297/MyApp/images/rachel.zoe.jpg" title="Fasion Week" target=""><img src="css/images/rachel.zoe.jpg"></a> </li>
-		
-		
-		</ul>
-		
-		
-		
-		
-			</div>      
+		</div></center>
+		<div>
+			<span class="pics">  
+			<ul data-filter="true">
+				<li><a href="https://dl.dropbox.com/u/46305297/MyApp/images/artistAtWork.jpg" title="Shoot Prep" target=""><img src="images/artistAtWork.jpg"></a> </li>
+				<li><a href="https://dl.dropbox.com/u/46305297/MyApp/images/rachel.zoe.1.jpg" title="Fasion Week" target=""><img src="css/images/rachel.zoe.1.jpg"></a> </li>
+				<li><a href="https://dl.dropbox.com/u/46305297/MyApp/images/bridePrep.jpg" title="Bride Prep" target=""><img src="images/bridePrep.jpg"></a> </li>
+				<li><a href="https://dl.dropbox.com/u/46305297/MyApp/images/kard.jpg" title="Fasion Week" target=""><img src="css/images/kard.jpg" alt="Fahion Week"/> </a> </li>
+				<li><a href="https://dl.dropbox.com/u/46305297/MyApp/images/rachel.zoe.jpg" title="Fasion Week" target=""><img src="css/images/rachel.zoe.jpg"></a> </li>
+			</ul>
+		</div> 
+
         <div a id="bio" data-role="collapsible-set" data-theme="a" data-content-theme="a" data-filter="true" title="Experience" target="" ></a>
             <div data-role="collapsible" data-collapsed="true">
                 <h3>
@@ -94,6 +91,8 @@
 						Jill Martin of The Today Show.</i></b></p>
             </div>
         </div>
+
+
         <div a id="events" data-role="collapsible-set" data-theme="a" data-content-theme="a" data-filter="true"  title="Shoot Pricing" target="">
             <div data-role="collapsible" data-collapsed="true">
                 <h3>
@@ -103,6 +102,7 @@
 				<br>Full-Day rate:<br>Up to 10hrs. $650</p>
             </div>
         </div>
+
         <div a id="wedding" data-role="collapsible-set" data-theme="a" data-content-theme="a"  title="Event Pricing" target="">
             <div data-role="collapsible" data-collapsed="true">
                 <h3>
@@ -135,7 +135,7 @@
                 </h3>
               <p>
 			     <input id='messageBox' textarea/>
-				 <button a id='noteBtn' name='SendMessage' data-theme="a" data-content-theme="a" overflow="scroll"> Send Message </button></a>
+				 <button a id='noteBtn' name='SendMessage' data-theme="a" data-content-theme="a" overflow="scroll"> Send Message  </button></a>
 				 </p>
                
 				<p><center><a id="contactLink" title="Email Stylist" href="mailto:zaffarano11@gmail.com"  target="_blank" data-transition="fade">
@@ -144,21 +144,19 @@
                 </div>
 				</div>
         
-		
-			
+		<div>
 			<center>
-				
-				
-			<div>
 			<table>
-			<tr>
-			<td>
-				<button id='butn1' title="facebook" target='' type='button' background= "hidden" onclick="window.location.href='http://www.facebook.com/karen.jefford.zaffarano'"> <img src="css/images/bfbook.jpg" data-mini="true" /></button></a></td>
-			<td>
-			<button a  title="Linked In" target=""id='btn2'type='button' background="hidden" onclick="window.location.href='http://www.linkedin.com"><img src="css/images/linkedinpic.ico"  data-mini="true" /></a></button>
-			</td>
+				<tr>
 				<td>
-				<button a title='Google+'id='btn3'type='button' background="hidden" onclick="window.location.href='https://plus.google.com/u/0'"><img src="css/images/google-ico.png"  data-mini="true"/></button></a>
+					<a><img id='butn1' title="facebook" target='' border='hidden' background= "hidden" onclick="window.location.href='http://www.facebook.com/karen.jefford.zaffarano'" img src="images/facebook.ico" data-mini="true" /></a>
+				</td>
+				<td>
+					<a><img id='btn2' title="Linked In" target='' border='hidden' background="hidden" onclick="window.location.href='http://www.linkedin.com'" 
+						img src="images/linkedin.png"  data-mini="true" /></a>
+				</td>
+				<td>
+					<a><img id='btn3' title='Google+' target='' border='hidden' background="hidden" onclick="window.location.href='https://plus.google.com/u/0'"img src="images/googlePlus.png"  data-mini="true"/></a>
 				</td>
 				</tr>
 			</table>
